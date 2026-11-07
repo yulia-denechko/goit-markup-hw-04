@@ -13,8 +13,13 @@
 
 .team-item {
   width: calc((100% - 72px) / 4);
-  background-color: #fff;
+  overflow: hidden;
   border-radius: 0 0 4px 4px;
+  background-color: #fff;
+  box-shadow:
+    0 2px 1px rgba(46, 47, 66, 0.08),
+    0 1px 6px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16);
 }
 
 .team-card-content {
@@ -35,4 +40,31 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.team-social-list li {
+  width: 40px;
+  height: 40px;
+}
+
+.team-social-list .social-link {
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+}
+
+.team-social-list .social-link:hover,
+.team-social-list .social-link:focus-visible {
+  background-color: #404bbf;
+}
+
+.social-link:focus-visible {
+  outline: 2px solid #404bbf;
+  outline-offset: 2px;
 }

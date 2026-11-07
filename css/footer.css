@@ -4,6 +4,15 @@
   background-color: #2e2f42;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -15,4 +24,35 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-social-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-list li {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-list .social-link {
+  color: #f4f4fd;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-list .social-link:hover,
+.footer-social-list .social-link:focus-visible {
+  background-color: #31d0aa;
+}
+
+.footer-social-list .social-link:focus-visible {
+  outline: 2px solid #31d0aa;
+  outline-offset: 2px;
 }

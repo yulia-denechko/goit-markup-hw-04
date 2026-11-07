@@ -7,6 +7,20 @@
   width: calc((100% - 72px) / 4);
 }
 
+.features-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
+.features-icon {
+  display: block;
+}
+
 .features-subtitle {
   margin-bottom: 8px;
   font-weight: 500;
