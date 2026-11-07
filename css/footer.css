@@ -6,7 +6,7 @@
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .footer-info {
@@ -44,15 +44,15 @@
 
 .footer-social-list .social-link {
   color: #f4f4fd;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #4d5ae5;
 }
 
 .footer-social-list .social-link:hover,
-.footer-social-list .social-link:focus-visible {
+.footer-social-list .social-link:focus {
   background-color: #31d0aa;
 }
 
-.footer-social-list .social-link:focus-visible {
+.footer-social-list .social-link:focus {
   outline: 2px solid #31d0aa;
   outline-offset: 2px;
 }

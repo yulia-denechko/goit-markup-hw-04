@@ -29,7 +29,7 @@
 }
 
 .main-nav-link:hover,
-.main-nav-link:focus-visible,
+.main-nav-link:focus,
 .main-nav-link.current {
   color: #404bbf;
 }
@@ -37,7 +37,7 @@
 .main-nav-link.current::after {
   position: absolute;
   right: 0;
-  bottom: -1px;
+  bottom: 0;
   left: 0;
   height: 4px;
   border-radius: 2px;
@@ -66,6 +66,6 @@
 }
 
 .contacts-link:hover,
-.contacts-link:focus-visible {
+.contacts-link:focus {
   color: #404bbf;
 }
